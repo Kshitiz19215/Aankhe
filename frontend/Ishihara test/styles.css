@@ -1,0 +1,142 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 10px;
+    background: url('Images/WebBG.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: white;
+}
+
+h1 {
+    font-family: Lobster;
+    text-align:left;
+    position: absolute;
+    top: 20px;
+    left: 80px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+h2 {
+    font-family: Satisfy;
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    margin-top: 80px;
+    font-size: 100px;
+    margin-bottom: 0%;
+}
+
+p {
+    font-family: Karla;
+    font-size: 30px;
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: justify;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8);
+    padding-top: 5%;
+}
+
+img {
+    width: 50%;
+    max-width: 30%;
+    height: auto;
+    display: block;
+    margin: 100px auto;
+    border: 5px solid white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+input {
+    width: 20%;
+    padding: 30px;
+    margin: 10px auto; 
+    box-sizing: border-box;
+    text-align: center;
+    border-radius: 60px;
+    border: none;
+    outline: none;
+    display: block;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+#takeTestBtn {
+    display: block;
+    margin: 0 auto;
+    padding: 10px;
+    width: 250px;
+    background-color: #676867;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 35px;
+    position: relative;
+    top: 30px;
+    bottom: 30px;
+    position: relative;
+    top: 10px;
+}
+
+#submitBtn {
+    display: block;
+    margin: 0 auto;
+    padding: 10px;
+    width: 150px;
+    background-color: #676867;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    top: 0px;
+}
+
+#ishiharaTestSection {
+    position: relative;
+}
+
+#imageContainer {
+    position: relative;
+}
+
+#result {
+    font-family: Lobster ;
+    position: absolute;
+    top: 33%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 40px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+    z-index: 1;
+    width: 380px;
+    height: 370px;
+    color:rgb(252, 252, 252);
+    font-size: 100px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+}
+
+#againBtn {
+    display: none;
+    margin-top: 100px; /* Adjust margin as needed */
+    padding: 22px; /* Adjust padding as needed */
+    background-color: #ededed;
+    color: rgb(10, 10, 10);
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    font-size: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media only screen and (max-width: 600px) {
+    input {
+        width: 80%;
+        padding: 10px;
+        border-radius: 10px;
+    }
+
+    #submitBtn {
+        width: 50%;
+    }
+}
