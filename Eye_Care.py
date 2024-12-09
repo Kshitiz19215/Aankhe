@@ -109,7 +109,7 @@ while True:
             open_start_time = None
 
         # Check for prolonged closed eyes to trigger alarm
-        if ratioAvg < 22:  # Adjust threshold as needed
+        if ratioAvg < 23:  # Adjust threshold as needed
             if close_start_time is None:
                 close_start_time = time.time()
             elif time.time() - close_start_time > close_threshold_duration:
