@@ -77,14 +77,6 @@ You can adjust the following parameters in the code:
 - Check that all dependencies are installed
 - Verify `Alarm.wav` is in the correct directory
 
-## Contributing
-
-Contributions are welcome! Please feel free to submit a Pull Request.
-
-## License
-
-[Specify your license here, e.g., MIT License]
-
 ## Disclaimer
 
 This is a health assistance tool and should not replace professional medical advice.
