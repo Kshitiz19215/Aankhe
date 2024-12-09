@@ -23,8 +23,7 @@ The Eye Care System is a Python-based application that uses computer vision to m
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/eye-care-system.git
-cd eye-care-system
+git clone https://github.com/Kshitiz19215/Aankhe.git
 ```
 
 2. Create a virtual environment (optional but recommended):
@@ -44,7 +43,7 @@ pip install -r requirements.txt
 
 Run the script:
 ```bash
-python eye_care_system.py
+python Eye_Care.py
 ```
 
 ### Controls
