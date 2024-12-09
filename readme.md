@@ -92,4 +92,4 @@ This is a health assistance tool and should not replace professional medical adv
 
 ## Author
 
-[Your Name]
+[Kshitiz Sharma]
